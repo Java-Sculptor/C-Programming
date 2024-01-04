@@ -7,7 +7,7 @@ r->result*/
 #include<stdio.h>
 
 void board();//declare an fuction to print a board
-//void clear();//declatre an function to clear an board when math ends
+
 int result();//to check winner
 
 char b[]={'0','1','2','3','4','5','6','7','8','9'};
@@ -47,7 +47,7 @@ void main(){
 }
 
 void board(){
-    //clear("cls");
+   
     printf("\n");
     printf("****Tic-Tac-Toe****");
      printf("     |     |     \n");
